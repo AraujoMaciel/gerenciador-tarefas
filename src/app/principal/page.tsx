@@ -1,12 +1,9 @@
-import { Header } from "@/components/header/header";
-import { Menu } from "@/components/header/menu";
-import Section from "@/components/section";
+import { Pagina } from "@/components/template/pagina";
 
 export default function Principal() {
   return (
     <div>
-      <Header />
-      <Menu />
+      <Pagina>Principal</Pagina>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import Section from "@/components/section";
+import Section from "@/components/template/section";
 import Image from "next/image";
 import Link from "next/link";
 
