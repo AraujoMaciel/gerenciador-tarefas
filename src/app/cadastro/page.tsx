@@ -1,8 +1,14 @@
 import Section from "@/components/template/section";
 import Image from "next/image";
 import Link from "next/link";
+import { modelUsuarios } from "@/core/model/modelUsuarios";
 
-export default function Cadastro() {
+interface propsCadastro {
+  cadastrar?: () => void;
+  cancelar?: () => void;
+}
+
+export default function Cadastro(props: propsCadastro) {
   return (
     <div className="h-screen  bg-basic-white flex justify-center items-center">
       <div className="md:grid md:grid-cols-2 md:w-full md:h-auto">
@@ -76,11 +82,17 @@ export default function Cadastro() {
               />
             </div>
             <div className="flex gap-5 items-center justify-center mt-10">
-              <button className="bg-primary-blue text-white w-32 p-2 rounded-lg hover:bg-dark-blue transition-all duration-200 lg:w-40 lg:text-lg">
+              <button
+                className="bg-primary-blue text-white w-32 p-2 rounded-lg hover:bg-dark-blue transition-all duration-200 lg:w-40 lg:text-lg"
+                onClick={props.cadastrar}
+              >
                 Cadastrar
               </button>
               <Link href="/">
-                <button className="bg-primary-blue text-white w-32 p-2 rounded-lg hover:bg-dark-blue transition-all duration-200 lg:w-40 lg:text-lg">
+                <button
+                  className="bg-primary-blue text-white w-32 p-2 rounded-lg hover:bg-dark-blue transition-all duration-200 lg:w-40 lg:text-lg"
+                  onClick={props.cancelar}
+                >
                   Voltar
                 </button>
               </Link>
