@@ -16,7 +16,7 @@ export function Pagina({ children }: any) {
         <div className="lg:grid-flow-row-dense lg:col-start-2 lg:col-span-6">
           <Header />
           <Dashboard />
-          <main>{children}</main>
+          <main className="lg:overflow-scroll lg:h-[480px]">{children}</main>
         </div>
         <div className="lg:grid-flow-col lg:row-start-1 lg:h-screen">
           <Menu />

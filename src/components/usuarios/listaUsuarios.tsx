@@ -4,10 +4,12 @@ import { Usuarios } from "./usuarios";
 
 export function ListarUsuarios() {
   return (
-    <div>
-      {listaUsuarios.map((usuario: modelUsuarios) => {
-        return <Usuarios key={usuario.id} usuario={usuario} />;
-      })}
+    <div className=" p-4 mx-4 my-10">
+      <div>
+        {listaUsuarios.map((usuario: modelUsuarios) => {
+          return <Usuarios key={usuario.id} usuario={usuario} />;
+        })}
+      </div>
     </div>
   );
 }
