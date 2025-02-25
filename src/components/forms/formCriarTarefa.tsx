@@ -26,16 +26,18 @@ export default function FormCriarTarefa() {
   }
 
   return (
-    <div className="h-auto  bg-basic-white flex justify-center items-center">
+    <div className="h-auto lg:h-full bg-basic-white flex justify-center items-center">
       <div className="md:mx-auto md:w-full md:h-auto">
         <main className="bg-slate-100 drop-shadow-xl p-10 flex flex-col justify-center items-center rounded-lg">
-          <div className="mt-7 mb-20 flex flex-col justify-center items-center gap-7 lg:w-44">
+          <div className="mt-7 mb-20 lg:mb-12 flex flex-col justify-center items-center gap-7 lg:w-44">
             {/* <p className="text-gray-700 md:text-lg lg:text-xl">Cadastre-se</p> */}
-            <h2 className="font-semibold text-xl lg:text-3xl">Criar Tarefa</h2>
+            <h2 className="font-semibold text-xl lg:text-3xl lg:w-52">
+              Criar Tarefa
+            </h2>
           </div>
           <form
             // action={salvar()}
-            className="flex flex-col gap-5 lg:gap-7 mb-16 items-center md:gap-7"
+            className="flex flex-col gap-5 lg:gap-7 mb-16 lg:mb-7 items-center md:gap-7"
           >
             <div className="flex flex-col gap-2 h-8 items-center">
               <input
@@ -70,7 +72,7 @@ export default function FormCriarTarefa() {
               />
             </div>
 
-            <div className="flex gap-5 items-center justify-center mt-10">
+            <div className="flex gap-5 items-center justify-center mt-10 lg:mt-5">
               <button
                 className="bg-primary-blue text-white w-32 p-2 rounded-lg hover:bg-dark-blue transition-all duration-200 lg:w-40 lg:text-lg"
                 type="submit"

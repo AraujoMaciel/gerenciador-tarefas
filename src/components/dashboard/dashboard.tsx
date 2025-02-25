@@ -14,7 +14,7 @@ export function Dashboard() {
         </div>
         <div>
           <h2 className="text-xs md:text-base lg:text-lg">Finalizadas</h2>
-          <p className="font-bold text-lg md:text-xl lg:text-3xl">00</p>
+          <p className="font-bold text-lg md:text-xl lg:text-3xl">07</p>
         </div>
       </div>
       <div className="flex px-2 gap-2 lg:px-7 items-center shadow-lg bg-secondary-orange w-36 h-36 rounded-lg md:w-40 md:h-40 lg:w-60 lg:h-60 ">
@@ -28,7 +28,7 @@ export function Dashboard() {
         </div>
         <div>
           <h2 className="text-xs md:text-base lg:text-lg">Pendentes</h2>
-          <p className="font-bold text-lg md:text-xl lg:text-3xl">00</p>
+          <p className="font-bold text-lg md:text-xl lg:text-3xl">02</p>
         </div>
       </div>
       <div className="flex px-2 gap-2 lg:px-7 items-center shadow-lg bg-secondary-red w-36 h-36 rounded-lg md:w-40 md:h-40 lg:w-60 lg:h-60 ">
@@ -42,7 +42,7 @@ export function Dashboard() {
         </div>
         <div>
           <h2 className="text-xs md:text-base lg:text-lg">Canceladas</h2>
-          <p className="font-bold text-lg md:text-xl lg:text-3xl">00</p>
+          <p className="font-bold text-lg md:text-xl lg:text-3xl">03</p>
         </div>
       </div>
       <div className="flex px-2 gap-2 lg:px-7 items-center shadow-lg bg-secondary-blue w-36 h-36 rounded-lg md:w-40 md:h-40 lg:w-60 lg:h-60 ">
@@ -56,7 +56,7 @@ export function Dashboard() {
         </div>
         <div>
           <h2 className="text-xs md:text-base lg:text-lg">Total</h2>
-          <p className="font-bold text-lg md:text-xl lg:text-3xl">00</p>
+          <p className="font-bold text-lg md:text-xl lg:text-3xl">12</p>
         </div>
       </div>
     </div>
