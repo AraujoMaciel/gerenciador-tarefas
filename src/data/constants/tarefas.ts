@@ -3,7 +3,7 @@ import { modelTarefas } from "@/core/model/modelTarefas";
 export const listaTarefas: modelTarefas[] = [
   {
     id: "1",
-    titulo: "Finalizar projeto TecWeb",
+    titulo: "Definir Equipe 1",
     descricao: "Projeto final da disciplina",
     status: "Finalizada",
   },

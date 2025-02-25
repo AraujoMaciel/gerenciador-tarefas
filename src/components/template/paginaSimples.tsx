@@ -18,7 +18,7 @@ export function PaginaSimples({ children }: any) {
         <main>{children}</main>
       </div>
 
-      <div className="hidden lg:grid lg:grid-cols-7 lg:gap-4">
+      <div className="hidden lg:grid lg:grid-cols-7 lg:gap-1">
         <div className="lg:grid-flow-row-dense lg:col-start-2 lg:col-span-6">
           <div>
             {listaUsuarios.map((usuario: modelUsuarios) => {
@@ -28,7 +28,7 @@ export function PaginaSimples({ children }: any) {
 
           <main className="lg:overflow-hidden lg:h-full">{children}</main>
         </div>
-        <div className="lg:grid-flow-col lg:row-start-1 lg:h-screen">
+        <div className="lg:grid-flow-col lg:row-start-1 lg:h-full">
           <Menu />
         </div>
       </div>

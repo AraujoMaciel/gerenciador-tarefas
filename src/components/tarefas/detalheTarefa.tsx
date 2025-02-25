@@ -56,12 +56,12 @@ export function DetalhaTarefa() {
             href="/criarTarefa"
             className="bg-primary-blue text-white w-full flex items-center justify-center gap-4 cursor-pointer p-2 rounded-lg hover:bg-dark-blue transition-all duration-200 "
           >
-            <Image
+            {/* <Image
               src="/icons/edit.png"
               alt="icone editar"
               width={30}
               height={30}
-            />
+            /> */}
             Editar
           </Link>
         </div>

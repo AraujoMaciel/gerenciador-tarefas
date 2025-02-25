@@ -17,7 +17,7 @@ export function Tarefas(props: propsTarefas) {
       <div className="flex gap-2 items-center">
         <Link
           href="/infoTarefa"
-          className="w-10 h-10 lg:w-12 lg:h-12 flex justify-center items-center cursor-pointer"
+          className="w-7 h-7 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 flex justify-center items-center cursor-pointer"
         >
           <Image
             src="/icons/preview.png"
@@ -26,12 +26,23 @@ export function Tarefas(props: propsTarefas) {
             height={40}
           />
         </Link>
-        <div className="w-10 h-10 lg:w-12 lg:h-12 flex justify-center items-center cursor-pointer">
+
+        <div className="w-7 h-7 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 flex justify-center items-center cursor-pointer">
           <Image
             src="/icons/delete.png"
             alt="icone deletar"
             width={40}
             height={40}
+            // className="w-auto h-auto"
+          />
+        </div>
+        <div className="w-7 h-7 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 flex justify-center items-center cursor-pointer">
+          <Image
+            src="/icons/check.png"
+            alt="icone deletar"
+            width={40}
+            height={40}
+            // className="w-auto h-auto"
           />
         </div>
       </div>
