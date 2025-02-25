@@ -42,7 +42,6 @@ export default function FormCriarTarefa() {
                 type="text"
                 // name="nome"
                 id="titulo"
-                {...setTask}
                 placeholder="Título da Tarefa"
                 className="rounded-lg px-5 border lg:text-lg lg:py-4 lg:h-10 lg:w-72"
               />
