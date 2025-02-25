@@ -7,7 +7,7 @@ interface propsTarefas {
 
 export function Tarefas(props: propsTarefas) {
   return (
-    <div className="flex justify-between px-7 py-4 rounded-lg bg-slate-100 my-7">
+    <div className="flex justify-between px-7 py-4 rounded-lg bg-slate-200 my-7">
       <div className="flex flex-col gap-2">
         <p className="font-medium">{props.tarefa.titulo}</p>
         <p className="text-gray-600">{props.tarefa.status}</p>

@@ -8,7 +8,7 @@ export default function Notificacoes() {
   return (
     <div>
       <Pagina>
-        <div className="bg-slate-100 rounded-xl mx-4 flex justify-between items-center px-7 py-4 my-12">
+        <div className="bg-slate-200 rounded-xl mx-4 flex justify-between items-center px-7 py-4 my-12">
           <h2>Suas Notificações aparecerão aqui</h2>
           <Link href="/notificacoes" className="w-8 cursor-pointer">
             <Image

@@ -26,9 +26,9 @@ export default function FormCriarTarefa() {
   }
 
   return (
-    <div className="h-auto lg:h-full bg-basic-white flex justify-center items-center">
+    <div className="h-auto lg:h-full -z-20 bg-slate-100 flex justify-center items-center">
       <div className="md:mx-auto md:w-full md:h-auto">
-        <main className="bg-slate-100 drop-shadow-xl p-10 flex flex-col justify-center items-center rounded-lg">
+        <main className="bg-slate-200 max-w-96 lg:mx-auto drop-shadow-xl p-10 flex flex-col justify-center items-center rounded-lg">
           <div className="mt-7 mb-20 lg:mb-12 flex flex-col justify-center items-center gap-7 lg:w-44">
             {/* <p className="text-gray-700 md:text-lg lg:text-xl">Cadastre-se</p> */}
             <h2 className="font-semibold text-xl lg:text-3xl lg:w-52">

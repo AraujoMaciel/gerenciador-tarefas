@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function Dashboard() {
   return (
-    <div className=" px-4 md:px-10 my-4 md:my-12 grid grid-rows-1 grid-cols-4 gap-40 md:gap-7 overflow-scroll lg:gap-5">
+    <div className=" mx-5 md:px-10 my-4 md:my-12 grid grid-rows-1 grid-cols-4 gap-40 md:gap-7 overflow-scroll lg:gap-5">
       <div className="flex gap-2 px-2 lg:px-7 shadow-lg items-center bg-secondary-green w-36 h-36 md:w-40 md:h-40 lg:w-60 lg:h-60 rounded-lg">
         <div className="w-12 lg:w-14 flex justify-center">
           <Image

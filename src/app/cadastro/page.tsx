@@ -37,7 +37,7 @@ export default function Cadastro(props: propsCadastro) {
   }
 
   return (
-    <div className="h-screen  bg-basic-white flex justify-center items-center">
+    <div className="h-screen  bg-slate-200 flex justify-center items-center">
       <div className="md:grid md:grid-cols-2 md:w-full md:h-auto">
         <div className="md:flex justify-center items-center bg-white hidden">
           <Image
