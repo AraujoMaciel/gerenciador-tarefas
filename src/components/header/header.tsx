@@ -39,12 +39,12 @@ export function Header(props: propsHeader) {
       <div
         className={`${
           menu ? "block" : "hidden"
-        } absolute bg-blue-100 w-72 h-auto right-1 top-24 rounded-xl p-7 flex flex-col items-center z-30`}
+        } absolute bg-white shadow-xl drop-shadow-xl border-gray-300 border-2 w-72 h-auto right-1 top-24 rounded-xl p-7 flex flex-col items-center z-30`}
       >
         <div className="flex flex-col gap-4 relative justify-center items-center">
           <div className="w-72 flex justify-end pr-5 mb-4">
             <div
-              className="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center"
+              className="w-8 h-8 cursor-pointer rounded-full bg-slate-100 flex items-center justify-center"
               onClick={() => {
                 setMenu(false);
               }}
